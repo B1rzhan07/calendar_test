@@ -7,7 +7,7 @@ import dayjs from 'dayjs';
 import { IUser } from '../models/IUser';
 
 interface EventFormProps {
-  guests: IUser[] | undefined;
+  guests: IUser[];
   submit: (event: ICalendar) => void;
   event: ICalendar;
   setEvent: (event: ICalendar) => void;

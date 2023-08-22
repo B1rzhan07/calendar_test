@@ -18,6 +18,7 @@ const Calendar: FC = () => {
   // const { data } = useGetUserQuery('');
   // console.log(data);
   const data = users;
+  console.log(data);
 
   const [event, setEvent] = useState<ICalendar>({
     author: '',
